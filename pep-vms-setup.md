@@ -1,4 +1,6 @@
-# VM 6
+# PEP VM Individual Setups
+All of the following was tested to work on CentOS 7
+## VM 6
 - Install Docker: [tutorial](https://docs.docker.com/engine/install/centos/)
 - Default Installation of Zeus x3 in different folders: [tutorial](https://github.com/knowledge-gr/evoting)
 - Change settings: user/pass, db, cores, host, serverURL
@@ -8,13 +10,13 @@
 - Drop firewall for HTTP/HTTPS requests
 - Map URLs
 
-## Ports
-### Zeus
+### Ports
+#### Zeus
 - pella: 8000
 - pieria: 8001
 - lesvos: 8002
 
-## TODO
+### TODO
 - Find SMTP settings
 - Change website title?
 - Set admin email
