@@ -16,6 +16,10 @@ All of the following was tested to work on CentOS 7
 - pieria: 8001
 - lesvos: 8002
 
+### Domains
+#### Zeus
+- pella: [https://evoting.pellachamber.e-host.gr/](https://evoting.pellachamber.e-host.gr/)
+
 ### TODO
 - Find SMTP settings
 - Change website title?
