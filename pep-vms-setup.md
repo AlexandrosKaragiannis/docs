@@ -28,9 +28,9 @@ All of the following was tested to work on CentOS 7
 
 ## VM 7 and 8 (1* WSO2APIM each)
 - Install Docker: [tutorial](https://docs.docker.com/engine/install/centos/)
-- Clone WSO2 API Manager
-- Change settings files, mainly `local.env`
-- Run using Docker (and expose ports 9443, 8280)
+- Clone WSO2 API Manager (for Docker install)
+- Change settings files, mainly `deployment.toml`
+- Run using Docker (include volumes for settings and expose ports 9443, 8280)
 - Setup NGINX to map domains to APIM and APIGW: [tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-centos-7)
 - Setup letsencrypt certbot: [tutorial](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-centos-7)
 - Drop firewall for HTTP/HTTPS requests
