@@ -28,7 +28,7 @@ All of the following was tested to work on CentOS 7
 
 ## VM 7 and 8 (1* WSO2APIM each)
 - Install Docker: [tutorial](https://docs.docker.com/engine/install/centos/)
-- Clone WSO2 API Manager (for Docker install). A non docker tutorial is [here](https://github.com/knowledge-gr/ws02-nestjsdemo/blob/master/ws02/installation.md). Simply include the config files as volumes in the docker container
+- Clone WSO2 API Manager (for Docker install). My tutorial that mentions docker is [here](https://github.com/knowledge-gr/ws02-nestjsdemo/blob/master/ws02/installation.md). Simply include the config files as volumes in the docker container
 - Change settings files, mainly `deployment.toml`
 - Run using Docker (include volumes for settings and expose ports 9443, 8280)
 - Setup NGINX to map domains to APIM and APIGW: [tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-centos-7)
