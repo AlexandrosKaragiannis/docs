@@ -36,10 +36,10 @@ All of the following was tested to work on CentOS 7
 - Drop firewall for HTTP/HTTPS requests
 
 ### Ports
-APIM: 9443
-APIGW: 8280
+- APIM: 9443
+- APIGW: 8280 (HTTP) and 8243 (HTTPS)
 
 ### Domains
 - pella: [https://apim.pellachamber.e-host.gr/devportal](https://apim.pellachamber.e-host.gr/devportal)
-- pieria: [wip](wip)
+- pieria: [https://apim.champier.e-host.gr/devportal](https://apim.champier.e-host.gr/devportal)
 
