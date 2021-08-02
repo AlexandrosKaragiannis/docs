@@ -19,6 +19,12 @@ edit file `/etc/selinux/config` and set `SELINUX=disabled`
 sudo nano /etc/selinux/config
 ```
 
+## Enable Firewalld
+```bash
+systemctl enable firewalld
+systemctl start firewalld
+```
+
 ## Create Swap Space
 ```bash
 sudo dd if=/dev/zero of=/swapfile count=4096 bs=1MiB
